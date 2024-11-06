@@ -168,7 +168,7 @@ const Item5 = () => {
                 </p>
               </p>
             </div>
-            <div className="md:text-2xl text-green-600 text-xl font-bold ">
+            <div className="md:text-2xl  text-xl font-bold ">
               <section className="flex  gap-2 items-center">
                 <FaMapMarkerAlt />
                 <p>Departed Shipping Partner Facility, Primepath awaiting item.</p>
@@ -188,7 +188,7 @@ const Item5 = () => {
                 <p>November 5, 2024, 11:25pm</p>
               </p>
             </div>
-            <div className="md:text-2xl text-xl font-bold text-black">
+            <div className="md:text-2xl text-green-600 text-xl font-bold text-black">
               <section className="flex gap-2 items-center">
                 <FaMapMarkerAlt />
                 <p>Departed Jebel Ali Port, Dubai.</p>
