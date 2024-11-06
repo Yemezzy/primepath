@@ -1,0 +1,15 @@
+.stt{
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(/image/header.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.show{
+    display: block;
+}
+.hide{
+    display: none;
+}
+.jjjj{
+    background-image: url(/public/img/img11.webp);
+}
