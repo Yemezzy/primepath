@@ -11,6 +11,7 @@ import Seconditem from './Tracking/Seconditem';
 import Item3 from './Tracking/Item3';
 import Item4 from './Tracking/Item4';
 import Item5 from './Tracking/Item5';
+import Item6 from './Tracking/Item6';
 
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
         <Route path="/tracking/PP54896454-016SH" element={<Item3 />} />
         <Route path="/tracking/PP54896455-017SH" element={<Item4 />} />
         <Route path="/tracking/PP54896456-018SH" element={<Item5 />} />
+        <Route path="/tracking/PP54896457-019SH" element={<Item6 />} />
         <Route path="/get-a-quote" element={<Quote />} />
       </Routes>
     </div>

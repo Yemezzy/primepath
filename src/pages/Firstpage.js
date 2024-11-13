@@ -38,12 +38,28 @@ const Firstpage = () => {
   const track3 = "PP54896454-016SH";
   const track4 = "PP54896455-017SH";
   const track5 = "PP54896456-018SH";
+  const track6 = "PP54896457-019SH";
 
   // const error = "";
   const [data, setData] = useState("");
   const [error, setError] = useState("");
 
   const submit = (event) => {
+    if (data === track6) {
+      setTimeout(() => {
+        setShow(false);
+      }, 500);
+      setInterval(() => {
+        setOpen(true);
+      }, 800);
+      setTimeout(() => {
+        window.location.href = "/tracking/PP54896457-019SH";
+      }, 5000);
+    } else {
+      setTimeout(() => {
+        setError("Unable to find details / Incorrect Tracking Number");
+      }, 3000);
+    }
     if (data === track5) {
       setTimeout(() => {
         setShow(false);

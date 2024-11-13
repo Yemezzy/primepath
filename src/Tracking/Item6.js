@@ -16,9 +16,9 @@ import { Link } from "react-router-dom";
 import { MdMail } from "react-icons/md";
 import Footer from "../pages/Footer";
 
-const Item5 = () => {
+const Item6 = () => {
   return (
-    <div>
+     <div>
           
                 <nav className="">
         <section className="flex gap-2 justify-center md:px-16 py-3 bg-[#1F1F2E] text-white text-xs">
@@ -55,10 +55,10 @@ const Item5 = () => {
             <li className="border-2  border-black border-l-0 text-base py-2 font-semibold">
               Pending
             </li>
-            <li className="border-2  text-black border-black border-l-0 text-base py-2 font-semibold ">
+            <li className="border-2 bg-green-700 text-white border-black border-l-0 text-base py-2 font-semibold ">
               Processing
             </li>
-            <li className="border-2  mt-1 md:mt-0 bg-red-700 border-black border-l-2 md:border-l-0 text-base py-2 font-semibold  ">
+            <li className="border-2  mt-1 md:mt-0 border-black border-l-2 md:border-l-0 text-base py-2 font-semibold  ">
               On Hold
             </li>
             <li className="border-2 mt-1 md:mt-0 border-black border-l-0 text-base py-2 font-semibold">
@@ -95,13 +95,13 @@ const Item5 = () => {
                           <section>
                               <p className=" uppercase font-bold mt-5">Receiver Information</p> 
                                          <p className="md:mt-5 mt-2 font-medium">
-                <b>Name: </b>Kelly martino
+                <b>Name: </b>Lilijagailumauk
               </p>
                                          <p className="md:mt-2 font-medium">
-                <b>Address: </b>2412 north Walnut Road Las Vegas Nevada 89115, USA
+                <b>Address: </b>77 Lindisfarne Road NN17 2EL Корби
               </p>
                                          <p className="md:mt-2 font-medium">
-                                  <b>Email: </b><a href="mailto:Kellymartino200@Gmail.com">Kellymartino200@Gmail.com</a>
+                                  <b>Email: </b><a href="mailto:lilijagailumauk@gmail.com">lilijagailumauk@gmail.com</a>
               </p>
            
                           </section>
@@ -152,7 +152,7 @@ const Item5 = () => {
               </section>
               <p className="text-sm font-normal px-4 ml-3 mt-2 h-[100px] border-l-4 border-dotted border-green-700">
                 <p>Dubai, UAE.</p>
-                <p>November 5, 2024, 08:15am</p>
+                <p>November 13, 2024, 08:15am</p>
               </p>
             </div>
             <div className="md:text-2xl text-xl font-bold text-black">
@@ -162,7 +162,7 @@ const Item5 = () => {
               </section>
               <p className="text-sm font-normal px-4 ml-3 mt-2 h-[100px] border-l-4 border-dotted border-green-700">
           <p>Dubai, UAE</p>
-            <p>November 5, 2024, 09:19am.</p>
+            <p>November 13, 2024, 09:19am</p>
               <p>
                   Shipping Partner: Al Mas Cargo.
                 </p>
@@ -175,20 +175,20 @@ const Item5 = () => {
               </section>
               <p className="text-sm font-normal px-4 ml-3 mt-2 h-[100px] border-l-4 border-dotted border-green-700">
                <p>Dubai, UAE.</p>
-            <p>November 5, 2024, 09:43am.</p>
+            <p>November 13,  2024, 09:43am</p>
               </p>
             </div>
-            <div className="md:text-2xl  text-xl font-bold text-black">
+            <div className="md:text-2xl text-green-600 text-xl font-bold ">
               <section className="flex gap-2 items-center">
                 <FaMapMarkerAlt />
                 <p>Arrived Primepath Facility.</p>
               </section>
               <p className="text-sm font-normal px-4 ml-3 mt-2 h-[100px] border-l-4 border-dotted border-green-700">
                 <p>Jebel Ali Port, Dubai.</p>
-                <p>November 5, 2024, 11:25pm</p>
+                <p>November 14, 2024, 11:25pm</p>
               </p>
             </div>
-            <div className="md:text-2xl  text-xl font-bold ">
+            {/* <div className="md:text-2xl  text-xl font-bold ">
               <section className="flex gap-2 items-center">
                 <FaMapMarkerAlt />
                 <p>Departed Jebel Ali Port, Dubai.</p>
@@ -207,7 +207,7 @@ const Item5 = () => {
                 <p>Suez, Egypt.</p>
                 <p>November 13, 2024, 08:18am</p>
               </p>
-            </div>
+            </div> */}
           
 
             <p className="md:mt-5 mt-3 text-sm md:text-base">
@@ -223,4 +223,4 @@ const Item5 = () => {
   )
 }
 
-export default Item5
+export default Item6
