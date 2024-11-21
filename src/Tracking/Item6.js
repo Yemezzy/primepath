@@ -55,10 +55,10 @@ const Item6 = () => {
             <li className="border-2  border-black border-l-0 text-base py-2 font-semibold">
               Pending
             </li>
-            <li className="border-2 bg-green-700 text-white border-black border-l-0 text-base py-2 font-semibold ">
+            <li className="border-2  border-black border-l-0 text-base py-2 font-semibold ">
               Processing
             </li>
-            <li className="border-2  mt-1 md:mt-0 border-black border-l-2 md:border-l-0 text-base py-2 font-semibold  ">
+            <li className="border-2  mt-1 bg-red-700 text-white md:mt-0 border-black border-l-2 md:border-l-0 text-base py-2 font-semibold  ">
               On Hold
             </li>
             <li className="border-2 mt-1 md:mt-0 border-black border-l-0 text-base py-2 font-semibold">
@@ -178,7 +178,7 @@ const Item6 = () => {
             <p>November 13,  2024, 09:43am</p>
               </p>
             </div>
-            <div className="md:text-2xl text-green-600 text-xl font-bold ">
+            <div className="md:text-2xl  text-xl font-bold ">
               <section className="flex gap-2 items-center">
                 <FaMapMarkerAlt />
                 <p>Arrived Primepath Facility.</p>
@@ -188,14 +188,14 @@ const Item6 = () => {
                 <p>November 14, 2024, 11:25pm</p>
               </p>
             </div>
-            {/* <div className="md:text-2xl  text-xl font-bold ">
+            <div className="md:text-2xl  text-xl font-bold ">
               <section className="flex gap-2 items-center">
                 <FaMapMarkerAlt />
-                <p>Departed Jebel Ali Port, Dubai.</p>
+                <p>Departed, Primepath Facility.</p>
               </section>
               <p className="text-sm font-normal px-4 ml-3 mt-2 h-[100px] border-l-4 border-dotted border-green-700">
-                <p>Dubai, UAE</p>
-                <p>November 6, 2024, 06:24am</p>
+                <p>Jebel Ali Port, Dubai.</p>
+                <p>November 15, 2024, 11:25am</p>
               </p>
             </div>
             <div className="md:text-2xl text-red-600 text-xl font-bold ">
@@ -205,9 +205,9 @@ const Item6 = () => {
               </section>
               <p className="text-sm font-normal px-4 ml-3 mt-2 h-[100px] border-l-4 border-dotted border-red-700">
                 <p>Suez, Egypt.</p>
-                <p>November 13, 2024, 08:18am</p>
+                <p>November 20, 2024, 08:18am</p>
               </p>
-            </div> */}
+            </div>
           
 
             <p className="md:mt-5 mt-3 text-sm md:text-base">
