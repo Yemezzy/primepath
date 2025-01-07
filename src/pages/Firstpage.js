@@ -84,7 +84,7 @@ const Firstpage = () => {
         setOpen(true);
       }, 800);
       setTimeout(() => {
-        window.location.href = "/tracking/PP54896456-018SH";
+        window.location.href = "/tracking/PP54896458-020SH";
       }, 5000);
     } else {
       setTimeout(() => {
