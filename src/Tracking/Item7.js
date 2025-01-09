@@ -198,16 +198,16 @@ const Item7 = () => {
                 <p>January 6, 2025, 01:10am</p>
               </p>
             </div>
-            {/* <div className="md:text-2xl text-red-600 text-xl font-bold ">
+            <div className="md:text-2xl text-red-600 text-xl font-bold ">
               <section className="flex gap-2 items-center">
                 <FaMapMarkerAlt />
-                <p>Arrived at Suez Canal..</p>
+                <p>Arrived Port of Reykjavik</p>
               </section>
               <p className="text-sm font-normal px-4 ml-3 mt-2 h-[100px] border-l-4 border-dotted border-red-700">
-                <p>Suez, Egypt.</p>
-                <p>November 20, 2024, 08:18am</p>
+                <p>Reykjavi, Iceland.</p>
+                <p>January, 2025, 10:05am</p>
               </p>
-            </div> */}
+            </div>
           
 
             <p className="md:mt-5 mt-3 text-sm md:text-base">
